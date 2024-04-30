@@ -19,9 +19,34 @@ function About() {
           Education & Training
         </h1>
         <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
+<ul className="list-decimal">
+        <li>
+          <ol>
+            <li>Bachelor's Degree [2021-2025]</li>
+            <li className="list-disc">[R.G.P.V University]</li>
+            <li className="list-disc">Branch: AIML</li>
+          </ol>
+        </li>
+        <br/>
+
+        <li>
+          <ol>
+            <li>Class: XII [2020-2021]</li>
+            <li className="list-disc">St. Dominic Savios High School</li>
+            <li className="list-disc">Score: 80.2%</li>
+          </ol>
+        </li>
+        <br/>
+
+        <li>
+          <ol>
+            <li>Class: X [2018-2019]</li>
+            <li className="list-disc">Navyug Vidyalaya High School</li>
+            <li className="list-disc">Score: 87.2%</li>
+          </ol>
+        </li>
+</ul>
+
         </span>
         <br />
         <br />
@@ -30,10 +55,10 @@ function About() {
           Skills & Expertise
         </h1>
         <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
-          Excellent problem-solving skills Effective communicator and
-          collaborator
+          Proficient in Front-End Technologies Experienced with [HTMl | CSS |
+          JAVASCRIPT | REACT | NODE JS ] and Programming Languages with [C++ | Java | Linux].
+          <p>Excellent problem-solving skills Effective communicator and
+          collaborator</p>
         </span>
         <br />
         <br />
@@ -41,12 +66,51 @@ function About() {
         <h1 className="text-green-600 font-semibold text-xl">
           Professional Experience
         </h1>
-        <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
+        <br/>
+        <span> 
+        
+          <ol >
+            <li className="list-disc">
+            <h2 className=" text-blue-500 font-semibold text-xl">Web Development</h2>  
+            </li>
+            <li>
+            Company Name: [Online Study4u]
+            </li>
+            <li>
+            Duration: [06/2023 - 08/2023]
+            </li>
+            <br/>
+            <ol >
+            <li className="list-disc">Responsibilities</li>
+            <li >
+           1. Assisted in front-end development tasks using HTML, CSS, and JavaScript.
+            </li>
+            <br/>
+            <li>
+           2. Collaborated with senior developers to implement responsive designs and user interface improvements.
+            </li>
+            <br/>
+            <li>
+           3. Conducted testing and debugging to ensure website functionality across different browsers and devices.
+            </li>
+            </ol>
+            <br/>
+            
+            <ol >
+            <li className="list-disc">Achievements</li>
+            <li >
+           1. Contributed to various projects [Tic Tac Toe Game | Color Game | Meme Generator] etc, that improved user experience by smooth performance and fast accessibility</li>
+            <br/>
+            <li>
+           2. Collaborated with Faculties to implement responsive designs and user interface improvements.
+            </li>
+            <br/>
+            <li>
+           3. Conducted testing and debugging to ensure website functionality across different browsers and devices.
+            </li>
+            </ol>
+          </ol>  
+          
         </span>
         <br />
         <br />
@@ -55,8 +119,25 @@ function About() {
           Achievements & Awards
         </h1>
         <span>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
+        <ul className="list-disc">
+        <li>[Dcjsp-Defronix Certified Junior
+        Security Practitioner], [Defronix Cyber Security], [06/2023]
+        </li>
+       
+        <li>[Web Development(Course Completion)], [Ramaasoft ]
+        </li> 
+
+        <li>[Lumenore Fundamentals(Course
+Completion)], [Lumenore], [10/2023]
+        </li>
+
+        <li>[Microsoft Azure(Course Completion)], [Microsoft]
+        </li>
+
+        <li>[Java And Machine Learning], [Internshala], [05/2023]
+        </li>
+  
+        </ul>
         </span>
         <br />
         <br />
@@ -65,11 +146,12 @@ function About() {
           Mission Statement
         </h1>
         <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
+        "I am passionate about leveraging my skills and imagination
+         to create transformative solutions in <span className="text-green-500">Web Development</span>,
+          elevating client experiences and making meaningful 
+          contributions to the digital world. I embrace learning
+           and seek diverse opportunities to fuel my personal 
+           and professional growth."
         </p>
       </div>
     </div>

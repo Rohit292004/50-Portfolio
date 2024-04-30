@@ -11,11 +11,16 @@ function PortFolio() {
       id: 1,
       logo: mongoDB,
       name: "MongoDB",
+      projectLink: "https://rohit292004.github.io/15-Charging-Animation/",
+      sourceCodeLink: "https://example.com/source1"
     },
     {
       id: 2,
       logo: express,
       name: "Express",
+      projectLink: "https://rohit292004.github.io/26-Spider-Animation/",
+      sourceCodeLink: "https://example.com/source1",
+
     },
     {
       id: 3,
@@ -47,7 +52,7 @@ function PortFolio() {
         <h1 className="text-3xl font-bold mb-5">PortFolio</h1>
         <span className=" underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
-          {cardItem.map(({ id, logo, name }) => (
+          {cardItem.map(({ id, logo, name, projectLink, sourceCodeLink }) => (
             <div
               className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
               key={id}
@@ -63,13 +68,27 @@ function PortFolio() {
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
-              <div className=" px-6 py-4 space-x-3 justify-around">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
-                  Video
+              <div className=" px-6 py-4 space-x-3 justify-around  ">
+               <div className=" md:mb-2  md:ml-3  ">
+                <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-2 py-1 rounded   ">
+                <a
+          href={projectLink} // Replace "#" with the actual URL of your project
+          className= "bg-green-500 hover:bg-green-700 text-white font-bold text-xs md:text-xm px-3 py-1 rounded">
+          View Project
+        </a>
                 </button>
-                <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
-                  Source code
+
+                </div>
+                <div className="md:mr-10  ">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 py-1 rounded  ">
+                <a
+          href={sourceCodeLink} // Replace "#" with the actual URL of your project
+          className= "bg-blue-500 hover:bg-blue-700 text-white font-bold text-xs md:text-xm px-3 py-1 rounded">
+          Source Code
+        </a>
                 </button>
+
+                </div>
               </div>
             </div>
           ))}

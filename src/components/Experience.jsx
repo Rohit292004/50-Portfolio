@@ -3,15 +3,18 @@ import html from "../../public/html.png";
 import css from "../../public/css.jpg";
 import java from "../../public/java.png";
 import javascript from "../../public/javascript.png";
-import oracle from "../../public/oracle.png";
-import spring from "../../public/spring.png";
-import springBoot from "../../public/springBoot.jpg";
+import c from "../../public/c.png";
+// import c++ from "../../public/c++.png";
+import cybersecurity from "../../public/cybersecurity.png";
+import react from "../../public/react.png";
+// import spring from "../../public/spring.png";
+// import springBoot from "../../public/springBoot.jpg";
 function Experience() {
   const cardItem = [
     {
       id: 1,
       logo: html,
-      name: "MongoDB",
+      name: "",
     },
     {
       id: 2,
@@ -30,18 +33,18 @@ function Experience() {
     },
     {
       id: 5,
-      logo: oracle,
-      name: "Oracle",
+      logo: c,
+      name: "c++",
     },
     {
       id: 6,
-      logo: spring,
-      name: "Spring",
+      logo: cybersecurity,
+      name: "Cyber Security",
     },
     {
       id: 7,
-      logo: springBoot,
-      name: "Spring Boot",
+      logo: react,
+      name: "React",
     },
   ];
   return (
@@ -52,7 +55,7 @@ function Experience() {
       <div>
         <h1 className="text-3xl font-bold mb-5">Experience</h1>
         <p className="  ">
-          I've more than 2 years of experince in below technologies.
+          I've more than 1 years of experince in below technologies.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
