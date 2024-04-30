@@ -18,7 +18,7 @@ function Contact() {
       message: data.message,
     };
     try {
-      await axios.post("https://getform.io/f/qaloennb", userInfo);
+      await axios.post("https://formspree.io/f/xbjnwoyk", userInfo);
       toast.success("Your message has been sent");
     } catch (error) {
       console.log(error);
