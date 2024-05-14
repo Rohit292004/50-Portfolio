@@ -26,6 +26,8 @@ function PortFolio() {
       id: 3,
       logo: reactjs,
       name: "ReactJS",
+      projectLink: "https://github.com/Rohit292004/tourism-plan",
+      sourceCodeLink: "https://tourismplanwithme.netlify.app/"
     },
     {
       id: 4,
