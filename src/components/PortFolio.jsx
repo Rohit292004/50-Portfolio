@@ -11,8 +11,8 @@ function PortFolio() {
       id: 1,
       logo: mongoDB,
       name: "MongoDB",
-      projectLink: "https://rohit292004.github.io/15-Charging-Animation/",
-      sourceCodeLink: "https://example.com/source1"
+      projectLink: "https://rohit292004.github.io/33SunriseSunsets/",
+      sourceCodeLink: "https://github.com/Rohit292004/33SunriseSunsets.git"
     },
     {
       id: 2,
@@ -25,9 +25,9 @@ function PortFolio() {
     {
       id: 3,
       logo: reactjs,
-      name: "ReactJS",
-      projectLink: "https://github.com/Rohit292004/tourism-plan",
-      sourceCodeLink: "https://tourismplanwithme.netlify.app/"
+      name: "ReactJS", 
+      projectLink: "https://tourismplanwithme.netlify.app/",
+      sourceCodeLink: " https://github.com/Rohit292004/tourism-plan"
     },
     {
       id: 4,
