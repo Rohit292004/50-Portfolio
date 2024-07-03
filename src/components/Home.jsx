@@ -1,7 +1,5 @@
-import React from "react";
-
-import pic from "../../public/photo.avif";
-
+ 
+ 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
@@ -25,7 +23,7 @@ function Home() {
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
             <span className="text-xl">Welcome In My Feed</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>Hello, I'm a</h1>
+              <h1>Hello, I&apos;m a</h1>
               {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
@@ -37,7 +35,7 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-            Hello, I'm Rohit, a fourth-year AIML student. I'm a programmer and open-source enthusiast. I love to push limits and explore new things as much as possible.
+            Hello, I&apos;m Rohit, a fourth-year AIML student. I&apos;m a programmer and open-source enthusiast. I love to push limits and explore new things as much as possible.
             </p>
             <br />
             {/* social media icons */}
@@ -79,7 +77,7 @@ function Home() {
             </div>
           </div>
           <div className="md:w-1/2 md:ml-28  md:mt-20 mt-8 order-1">
-            <img src="/Profile Pic.png"
+            <img src="/ProfilePic.png"
               className="rounded-full md:w-[450px] md:h-[450px]"
               alt=""
             />

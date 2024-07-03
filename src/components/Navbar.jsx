@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import pic from "../../public/photo.avif";
+ import pic from "../../public/photo.avif";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
+import { useState } from "react";
 function Navbar() {
   const [menu, setMenu] = useState(false);
   const navItems = [

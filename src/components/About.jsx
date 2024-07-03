@@ -1,5 +1,4 @@
-import React from "react";
-
+ 
 function About() {
   return (
     <div
@@ -9,7 +8,7 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm <span className="text-red-600">Rohit</span>, a passionate Web developer with a keen eye for MERN
+          Hello, I&apos;m <span className="text-red-600">Rohit</span>, a passionate Web developer with a keen eye for MERN
           Stack . With a background in IT, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
         </p>
@@ -22,8 +21,8 @@ function About() {
 <ul className="list-decimal">
         <li>
           <ol>
-            <li>Bachelor's Degree [2021-2025]</li>
-            <li className="list-disc">[R.G.P.V University]</li>
+            <li>Bachelor&apos;s Degree [xxxx-xxxx]</li>
+            <li className="list-disc">[ABCD University]</li>
             <li className="list-disc">Branch: AIML</li>
           </ol>
         </li>
@@ -99,7 +98,7 @@ function About() {
             <ol >
             <li className="list-disc">Achievements</li>
             <li >
-           1. Contributed to various projects [Tic Tac Toe Game | Color Game | Meme Generator] etc, that improved user experience by smooth performance and fast accessibility</li>
+           1. Contributed to various projects [News Application | Music Player | Meme Generator] etc, that improved user experience by smooth performance and fast accessibility</li>
             <br/>
             <li>
            2. Collaborated with Faculties to implement responsive designs and user interface improvements.
@@ -146,12 +145,12 @@ Completion)], [Lumenore], [10/2023]
           Mission Statement
         </h1>
         <p>
-        "I am passionate about leveraging my skills and imagination
+        &quot;I am passionate about leveraging my skills and imagination
          to create transformative solutions in <span className="text-green-500">Web Development</span>,
           elevating client experiences and making meaningful 
           contributions to the digital world. I embrace learning
            and seek diverse opportunities to fuel my personal 
-           and professional growth."
+           and professional growth.&quot;
         </p>
       </div>
     </div>

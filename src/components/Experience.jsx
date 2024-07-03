@@ -1,5 +1,4 @@
-import React from "react";
-import html from "../../public/html.png";
+ import html from "../../public/html.png";
 import css from "../../public/css.jpg";
 import java from "../../public/java.png";
 import javascript from "../../public/javascript.png";
@@ -55,7 +54,7 @@ function Experience() {
       <div>
         <h1 className="text-3xl font-bold mb-5">Experience</h1>
         <p className="  ">
-          I've more than 1 years of experince in below technologies.
+          I&apos;ve more than 1 years of experince in below technologies.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
